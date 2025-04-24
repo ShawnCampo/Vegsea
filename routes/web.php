@@ -27,3 +27,8 @@ Route::get('/contact-us', function () {
     return view('contactus');
 })->name('contact-us');
 
+//news
+Route::get('/news-events', function () {
+    return view('news');
+})->name('news-events');
+

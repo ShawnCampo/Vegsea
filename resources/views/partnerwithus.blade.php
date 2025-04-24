@@ -134,8 +134,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-69c2a97 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="69c2a97" data-element_type="widget" data-widget_type="theme-site-logo.default">
 				<div class="elementor-widget-container">
-											<a href="https://mayani.ph">
-			<img fetchpriority="high" width="7500" height="3369" src="https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo.png" class="attachment-full size-full wp-image-5452" alt="" srcset="https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo.png 7500w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-300x135.png 300w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-1024x460.png 1024w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-768x345.png 768w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-1536x690.png 1536w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-2048x920.png 2048w" sizes="(max-width: 7500px) 100vw, 7500px" />				</a>
+											<a href="{{ route('home') }}">
+											<img fetchpriority="high" width="7500" height="3369"
+                                        src="{{ asset('images/logo.png') }}"
+     class="attachment-full size-full wp-image-5452" alt="Vegseas Logo"
+     srcset="
+        {{ asset('images/logo.png') }} 7500w,
+        {{ asset('images/logo.png') }} 300w,
+        {{ asset('images/logo.png') }} 1024w,
+        {{ asset('images/logo.png') }} 768w,
+        {{ asset('images/logo.png') }} 1536w,
+        {{ asset('images/logo.png') }} 2048w"
+     sizes="(max-width: 7500px) 100vw, 7500px" />				</a>
 											</div>
 				</div>
 					</div>
@@ -154,7 +164,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-39 current_page_item menu-item-50"><a href="{{ route('partner-with-us') }}" aria-current="page" class="elementor-item elementor-item-active">Partner With Us</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://mayani.ph/become-a-reseller/" class="elementor-item">Become a Ka-Farmilya</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://mayani.ph/news-events/" class="elementor-item">News &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="{{ route('news-events') }}" class="elementor-item">News &#038; Events</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="{{ route('contact-us') }}" class="elementor-item">Contact Us</a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -170,7 +180,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-39 current_page_item menu-item-50"><a href="{{ route('partner-with-us') }}" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Partner With Us</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://mayani.ph/become-a-reseller/" class="elementor-item" tabindex="-1">Become a Ka-Farmilya</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://mayani.ph/news-events/" class="elementor-item" tabindex="-1">News &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="{{ route('news-events') }}" class="elementor-item" tabindex="-1">News &#038; Events</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="{{ route('contact-us') }}" class="elementor-item" tabindex="-1">Contact Us</a></li>
 </ul>			</nav>
 						</div>
@@ -212,7 +222,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-39 current_page_item menu-item-63"><a href="{{ route('partner-with-us') }}" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Partner With Us</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://mayani.ph/become-a-reseller/" class="elementor-item" tabindex="-1">Become a Ka-Farmilya</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="https://mayani.ph/news-events/" class="elementor-item" tabindex="-1">News &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="{{ route('news-events') }}" class="elementor-item" tabindex="-1">News &#038; Events</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="{{ route('contact-us') }}" class="elementor-item" tabindex="-1">Contact Us</a></li>
 </ul>			</nav>
 						</div>
@@ -2757,7 +2767,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-6d9c44db elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="6d9c44db" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><a href="{{ url('/about-us') }}">About Us</a></p><p><a href="{{ route('meet-the-team') }}">Meet the Team</a></p><p><a href="{{ route('partner-with-us') }}">Partner with Us</a></p><p><a href="/become-a-reseller">Become a Reseller</a></p><p><a href="/news-events/">News and Events</a></p>								</div>
+									<p><a href="{{ url('/about-us') }}">About Us</a></p><p><a href="{{ route('meet-the-team') }}">Meet the Team</a></p><p><a href="{{ route('partner-with-us') }}">Partner with Us</a></p><p><a href="/become-a-reseller">Become a Reseller</a></p><p><a href="{{ route('news-events') }}">News and Events</a></p>								</div>
 				</div>
 					</div>
 		</div>
@@ -2950,7 +2960,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-ab88136 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="ab88136" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><a href="{{ url('/about-us') }}"">About Us</a></p><p><a href="{{ route('meet-the-team') }}">Meet the Team</a></p><p><a href="{{ route('partner-with-us') }}">Partner with Us</a></p><p><a href="/become-a-reseller">Become a Reseller</a></p><p><a href="/news-events/">News and Events</a></p>								</div>
+									<p><a href="{{ url('/about-us') }}"">About Us</a></p><p><a href="{{ route('meet-the-team') }}">Meet the Team</a></p><p><a href="{{ route('partner-with-us') }}">Partner with Us</a></p><p><a href="/become-a-reseller">Become a Reseller</a></p><p><a href="{{ route('news-events') }}">News and Events</a></p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-275266bb elementor-widget elementor-widget-spacer" data-id="275266bb" data-element_type="widget" data-widget_type="spacer.default">
 				<div class="elementor-widget-container">

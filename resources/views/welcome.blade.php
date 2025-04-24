@@ -15633,13 +15633,21 @@
                         <div class="elementor-element elementor-element-69c2a97 elementor-widget elementor-widget-theme-site-logo elementor-widget-image"
                             data-id="69c2a97" data-element_type="widget" data-widget_type="theme-site-logo.default">
                             <div class="elementor-widget-container">
-                                <a href="https://mayani.ph">
+                                <a href="{{ route('home') }}">
                                     <img fetchpriority="high" width="7500" height="3369"
-                                        src="https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo.png"
-                                        class="attachment-full size-full wp-image-5452" alt=""
-                                        srcset="https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo.png 7500w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-300x135.png 300w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-1024x460.png 1024w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-768x345.png 768w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-1536x690.png 1536w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-2048x920.png 2048w"
-                                        sizes="(max-width: 7500px) 100vw, 7500px" /> </a>
+                                        src="{{ asset('images/logo.png') }}"
+                                        class="attachment-full size-full wp-image-5452" alt="Vegseas Logo" srcset="
+        {{ asset('images/logo.png') }} 7500w,
+        {{ asset('images/logo.png') }} 300w,
+        {{ asset('images/logo.png') }} 1024w,
+        {{ asset('images/logo.png') }} 768w,
+        {{ asset('images/logo.png') }} 1536w,
+        {{ asset('images/logo.png') }} 2048w" sizes="(max-width: 7500px) 100vw, 7500px" />
+
+                                </a>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -15688,7 +15696,7 @@
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
-                                            <a href="https://mayani.ph/news-events/" class="elementor-item">News &#038;
+                                            <a href="{{ route('news-events') }}" class="elementor-item">News &#038;
                                                 Events</a>
                                         </li>
                                         <li
@@ -15725,8 +15733,8 @@
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51">
-                                                    <a href="{{ route('meet-the-team') }}"
-                                                        class="elementor-sub-item" tabindex="-1">Meet the Team</a>
+                                                    <a href="{{ route('meet-the-team') }}" class="elementor-sub-item"
+                                                        tabindex="-1">Meet the Team</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -15742,7 +15750,7 @@
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
-                                            <a href="https://mayani.ph/news-events/" class="elementor-item"
+                                            <a href="{{ route('news-events') }}" class="elementor-item"
                                                 tabindex="-1">News &#038; Events</a>
                                         </li>
                                         <li
@@ -15819,8 +15827,8 @@
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64">
-                                                    <a href="{{ route('meet-the-team') }}"
-                                                        class="elementor-sub-item" tabindex="-1">Meet the Team</a>
+                                                    <a href="{{ route('meet-the-team') }}" class="elementor-sub-item"
+                                                        tabindex="-1">Meet the Team</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -15836,7 +15844,7 @@
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61">
-                                            <a href="https://mayani.ph/news-events/" class="elementor-item"
+                                            <a href="{{ route('news-events') }}" class="elementor-item"
                                                 tabindex="-1">News &#038; Events</a>
                                         </li>
                                         <li
@@ -16040,10 +16048,10 @@
         id: 1,
         desc: 'business',
         backgroundUrl: "https://mayani.ph/wp-content/uploads/2023/07/Homepage_slider2.png",
-        cardTitle: "Unlock opportunities with Mayani",
-        cardContent: "Partner with Mayani and unlock a world of opportunities in the agri-fisheries industry, creating a sustainable future and empowering local communities.",
+        cardTitle: "Unlock opportunities with Vegsea",
+        cardContent: "Partner with Vegsea and unlock a world of opportunities in the agri-fisheries industry, creating a sustainable future and empowering local communities.",
         cardButtonLabel: "PARTNER WITH US",
-        cardButtonSubText: "Learn more about Mayani business here.",
+        cardButtonSubText: "Learn more about Vegsea business here.",
         cardButtonSubTextBold: "",
         cardButtonLink: "https://mayani.ph/become-a-partner/",
         cardButtonSubtextLink: "https://mayani.ph/partner-with-us/",
@@ -16052,10 +16060,10 @@
         id: 2,
         desc: 'resell',
         backgroundUrl: "https://mayani.ph/wp-content/uploads/2023/07/Homepage_slider3.png",
-        cardTitle: "Explore new avenues as a Mayani Reseller",
+        cardTitle: "Explore new avenues as a Vegsea Reseller",
         cardContent: "Join our network of resellers, avail of discounts for bulk purchases, and bring farm-fresh produce to your neighborhood.",
         cardButtonLabel: "BECOME A RESELLER",
-        cardButtonSubText: "Learn more about Mayani reseller here.",
+        cardButtonSubText: "Learn more about Vegsea reseller here.",
         cardButtonSubTextBold: "",
         cardButtonLink: "https://mayaniville.mayani.ph/",
         cardButtonSubtextLink: "https://mayani.ph/partner-with-us/",
@@ -16213,14 +16221,14 @@ populateSlide(currentSlideData);
                                     data-id="87f4b6f" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
                                         <h2 class="elementor-heading-title elementor-size-default">What's happening at
-                                            <span style="color:#42B131;">Mayani</span>
+                                            <span style="color:#42B131;">Vegsea</span>
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-ff0008b elementor-widget elementor-widget-text-editor"
                                     data-id="ff0008b" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>At Mayani, we value the voices of our customers, and we take pride in
+                                        <p>At Vegsea, we value the voices of our customers, and we take pride in
                                             providing fresh and high-quality products that leave a lasting impression.
                                             But don’t just take our word for it — here’s what people are saying about
                                             Mayani.</p>
@@ -17008,12 +17016,18 @@ populateSlide(currentSlideData);
                                     data-id="38216f4" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                         <img decoding="async" width="7500" height="3369"
-                                            data-src="https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo.png"
-                                            class="attachment-full size-full wp-image-5452 lazyload" alt=""
-                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo.png 7500w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-300x135.png 300w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-1024x460.png 1024w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-768x345.png 768w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-1536x690.png 1536w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-2048x920.png 2048w"
-                                            data-sizes="(max-width: 7500px) 100vw, 7500px"
+                                            data-src="{{ asset('images/logo.png') }}"
+                                            class="attachment-full size-full wp-image-5452 lazyload" alt="Vegseas Logo"
+                                            data-srcset="
+        {{ asset('images/logo.png') }} 7500w,
+        {{ asset('images/logo.png') }} 300w,
+        {{ asset('images/logo.png') }} 1024w,
+        {{ asset('images/logo.png') }} 768w,
+        {{ asset('images/logo.png') }} 1536w,
+        {{ asset('images/logo.png') }} 2048w" data-sizes="(max-width: 7500px) 100vw, 7500px"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                             style="--smush-placeholder-width: 7500px; --smush-placeholder-aspect-ratio: 7500/3369;" />
+
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-9c8c12d elementor-widget elementor-widget-heading"
@@ -17037,7 +17051,7 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-534447f elementor-widget elementor-widget-text-editor"
                                     data-id="534447f" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        Mayani is on a mission to uplift the lives of Filipino farmers and fisherfolk by
+                                        Vegsea is on a mission to uplift the lives of Filipino farmers and fisherfolk by
                                         harnessing the transformative power of technology.
                                         <br> Our innovative solutions empower our local communities and enable them to
                                         thrive in a rapidly evolving agricultural landscape.<br> Join us in creating a
@@ -17058,7 +17072,7 @@ populateSlide(currentSlideData);
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                             href="{{ url('/about-us') }}">
+                                                href="{{ url('/about-us') }}">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-text">LEARN MORE</span>
                                                 </span>
@@ -17193,50 +17207,7 @@ populateSlide(currentSlideData);
                                         </div>
                                     </div>
                                 </section>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-d506566 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="d506566" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8082b82"
-                                            data-id="8082b82" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-6789e67 elementor-widget elementor-widget-image"
-                                                    data-id="6789e67" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/20-justkitchen.jpg"
-                                                            class="attachment-large size-large wp-image-4142 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/20-justkitchen.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/20-justkitchen-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7ba087b"
-                                            data-id="7ba087b" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-f718ee0 elementor-widget elementor-widget-image"
-                                                    data-id="f718ee0" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/18-builtamart.jpg"
-                                                            class="attachment-large size-large wp-image-4140 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/18-builtamart.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/18-builtamart-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+
                                 <div class="elementor-element elementor-element-0edb10c elementor-widget elementor-widget-spacer"
                                     data-id="0edb10c" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
@@ -17250,153 +17221,8 @@ populateSlide(currentSlideData);
                         <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e0ced25"
                             data-id="e0ced25" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-facc7c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="facc7c8" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d11efb8"
-                                            data-id="d11efb8" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-df16780 elementor-widget elementor-widget-image"
-                                                    data-id="df16780" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/08/Waltermart.jpg"
-                                                            class="attachment-large size-large wp-image-3102 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/08/Waltermart.jpg 500w, https://mayani.ph/wp-content/uploads/2023/08/Waltermart-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1e51669"
-                                            data-id="1e51669" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-e63d632 elementor-widget elementor-widget-image"
-                                                    data-id="e63d632" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="150" height="100"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/08/MerryMart.webp"
-                                                            class="attachment-large size-large wp-image-3104 lazyload"
-                                                            alt=""
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 150px; --smush-placeholder-aspect-ratio: 150/100;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-50437f5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="50437f5" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-159d321"
-                                            data-id="159d321" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-c6040dc elementor-widget elementor-widget-image"
-                                                    data-id="c6040dc" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/11-hilton.jpg"
-                                                            class="attachment-large size-large wp-image-4135 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/11-hilton.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/11-hilton-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7c80e88"
-                                            data-id="7c80e88" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-af32ff9 elementor-widget elementor-widget-image"
-                                                    data-id="af32ff9" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="150" height="100"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/08/Crimson.webp"
-                                                            class="attachment-large size-large wp-image-3098 lazyload"
-                                                            alt=""
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 150px; --smush-placeholder-aspect-ratio: 150/100;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-51df8ff elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="51df8ff" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-48a206d"
-                                            data-id="48a206d" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-15f8da1 elementor-widget elementor-widget-image"
-                                                    data-id="15f8da1" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/19-macroasia.jpg"
-                                                            class="attachment-large size-large wp-image-4141 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/19-macroasia.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/19-macroasia-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4dc62e5"
-                                            data-id="4dc62e5" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-c90efae elementor-widget elementor-widget-image"
-                                                    data-id="c90efae" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/21-sukiya.jpg"
-                                                            class="attachment-large size-large wp-image-4143 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/21-sukiya.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/21-sukiya-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0213510"
-                                            data-id="0213510" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-05e5439 elementor-widget elementor-widget-image"
-                                                    data-id="05e5439" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="384" height="240"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2024/07/ADB-logo-stacked-e1720419158504.png"
-                                                            class="attachment-large size-large wp-image-4722 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2024/07/ADB-logo-stacked-e1720419158504.png 384w, https://mayani.ph/wp-content/uploads/2024/07/ADB-logo-stacked-e1720419158504-300x188.png 300w"
-                                                            data-sizes="(max-width: 384px) 100vw, 384px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 384px; --smush-placeholder-aspect-ratio: 384/240;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+
+
                                 <div class="elementor-element elementor-element-075cef7 elementor-widget elementor-widget-spacer"
                                     data-id="075cef7" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
@@ -17422,64 +17248,7 @@ populateSlide(currentSlideData);
                                             style="--smush-placeholder-width: 7500px; --smush-placeholder-aspect-ratio: 7500/3369;" />
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-b29efe0 elementor-widget elementor-widget-heading"
-                                    data-id="b29efe0" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <h1 class="elementor-heading-title elementor-size-default">Transforming the
-                                            Lives of <br>
-                                            <span style="color:#42B131;">Filipino Farmers and Fisherfolks</span> through
-                                            Technology
-                                        </h1>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-c18c9f2 elementor-widget elementor-widget-spacer"
-                                    data-id="c18c9f2" data-element_type="widget" data-widget_type="spacer.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-spacer">
-                                            <div class="elementor-spacer-inner"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-dd3b095 elementor-widget elementor-widget-text-editor"
-                                    data-id="dd3b095" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        Mayani is on a mission to uplift the lives of Filipino farmers and fisherfolk by
-                                        harnessing the transformative power of technology.
-                                        <br> Our innovative solutions empower our local communities and enable them to
-                                        thrive in a rapidly evolving agricultural landscape.<br> Join us in creating a
-                                        future where technology-driven innovation and sustainable farming practices go
-                                        hand-in-hand.
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-ef752fe elementor-widget elementor-widget-spacer"
-                                    data-id="ef752fe" data-element_type="widget" data-widget_type="spacer.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-spacer">
-                                            <div class="elementor-spacer-inner"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-e64555a elementor-align-center elementor-widget elementor-widget-button"
-                                    data-id="e64555a" data-element_type="widget" data-widget_type="button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
-                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                             href="{{ url('/about-us') }}">
-                                                <span class="elementor-button-content-wrapper">
-                                                    <span class="elementor-button-text">LEARN MORE</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-1926f22 elementor-widget elementor-widget-spacer"
-                                    data-id="1926f22" data-element_type="widget" data-widget_type="spacer.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-spacer">
-                                            <div class="elementor-spacer-inner"></div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -17551,10 +17320,10 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-7701d91 elementor-widget elementor-widget-text-editor"
                                     data-id="7701d91" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>At Mayani, we envision a Philippines where smallholder farmers and fisherfolk
+                                        <p>At Vegsea, we envision a Philippines where smallholder farmers and fisherfolk
                                             lead better lives, supported by technology, community, and a collective
                                             passion for cultivating positive change. By establishing a sustainable
-                                            pathway to the market, Mayani boosts rural incomes and strengthens access to
+                                            pathway to the market, Vegsea boosts rural incomes and strengthens access to
                                             affordable, fresh produce for household and commercial buyers alike.</p>
                                     </div>
                                 </div>
@@ -17574,13 +17343,14 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-ee91c5e elementor-widget elementor-widget-image"
                                     data-id="ee91c5e" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                        <img decoding="async" width="800" height="675"
+                                    <img decoding="async" width="800" height="675"
                                             data-src="https://mayani.ph/wp-content/uploads/2023/07/Home_Advocacy.png"
                                             class="attachment-large size-large wp-image-129 lazyload" alt=""
                                             data-srcset="https://mayani.ph/wp-content/uploads/2023/07/Home_Advocacy.png 918w, https://mayani.ph/wp-content/uploads/2023/07/Home_Advocacy-300x253.png 300w, https://mayani.ph/wp-content/uploads/2023/07/Home_Advocacy-768x648.png 768w"
                                             data-sizes="(max-width: 800px) 100vw, 800px"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                             style="--smush-placeholder-width: 800px; --smush-placeholder-aspect-ratio: 800/675;" />
+
                                     </div>
                                 </div>
                             </div>
@@ -17619,29 +17389,8 @@ populateSlide(currentSlideData);
                                             style="--smush-placeholder-width: 800px; --smush-placeholder-aspect-ratio: 800/675;" />
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-5a1c599 elementor-widget elementor-widget-heading"
-                                    data-id="5a1c599" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">Our Advocacy</h3>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-d5d47ad elementor-widget elementor-widget-heading"
-                                    data-id="d5d47ad" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">More than a
-                                            convenient online shopping experience</h2>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-473e339 elementor-widget elementor-widget-text-editor"
-                                    data-id="473e339" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        <p>At Mayani, we envision a Philippines where smallholder farmers and fisherfolk
-                                            lead better lives, supported by technology, community, and a collective
-                                            passion for cultivating positive change. By establishing a sustainable
-                                            pathway to the market, Mayani boosts rural incomes and strengthens access to
-                                            affordable, fresh produce for household and commercial buyers alike.</p>
-                                    </div>
-                                </div>
+
+
                                 <div class="elementor-element elementor-element-2f35d10 elementor-widget elementor-widget-spacer"
                                     data-id="2f35d10" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
@@ -17689,7 +17438,7 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-92828f0 elementor-widget elementor-widget-heading"
                                     data-id="92828f0" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">Mayani for Business
+                                        <h3 class="elementor-heading-title elementor-size-default">Vegsea for Business
                                         </h3>
                                     </div>
                                 </div>
@@ -17705,7 +17454,7 @@ populateSlide(currentSlideData);
                                     data-id="6daf695" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <p>We understand your need for high-quality ingredients that meet the demands of
-                                            your discerning customers. With Mayani, you can elevate your culinary
+                                            your discerning customers. With Vegsea, you can elevate your culinary
                                             offerings, improve your reputation, and create unforgettable dining
                                             experiences.</p>
                                     </div>
@@ -17715,7 +17464,7 @@ populateSlide(currentSlideData);
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                             href="{{ route('partner-with-us') }}">
+                                                href="{{ route('partner-with-us') }}">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-text">PARTNER WITH US</span>
                                                 </span>
@@ -17732,70 +17481,7 @@ populateSlide(currentSlideData);
                         </div>
                     </div>
                 </section>
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-35443e8 elementor-section-full_width elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-section-height-default elementor-section-height-default"
-                    data-id="35443e8" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fc340a8"
-                            data-id="fc340a8" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-de88e82 elementor-widget elementor-widget-image"
-                                    data-id="de88e82" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img decoding="async" width="910" height="1021"
-                                            data-src="https://mayani.ph/wp-content/uploads/2023/07/Home_business.png"
-                                            class="attachment-full size-full wp-image-130 lazyload" alt=""
-                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/07/Home_business.png 910w, https://mayani.ph/wp-content/uploads/2023/07/Home_business-267x300.png 267w, https://mayani.ph/wp-content/uploads/2023/07/Home_business-768x862.png 768w"
-                                            data-sizes="(max-width: 910px) 100vw, 910px"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                            style="--smush-placeholder-width: 910px; --smush-placeholder-aspect-ratio: 910/1021;" />
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-068f9eb elementor-widget elementor-widget-heading"
-                                    data-id="068f9eb" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">Mayani for Business
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-c4891ea elementor-widget elementor-widget-heading"
-                                    data-id="c4891ea" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Your Farm-to-Table
-                                            Business Partner</h2>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-da89b23 elementor-widget elementor-widget-text-editor"
-                                    data-id="da89b23" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        <p>We understand your need for high-quality ingredients that meet the demands of
-                                            your discerning customers. With Mayani, you can elevate your culinary
-                                            offerings, improve your reputation, and create unforgettable dining
-                                            experiences.</p>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-323aee5 elementor-align-left elementor-tablet_extra-align-justify elementor-tablet-align-center elementor-widget elementor-widget-button"
-                                    data-id="323aee5" data-element_type="widget" data-widget_type="button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
-                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                 href="{{ route('partner-with-us') }}">
-                                                <span class="elementor-button-content-wrapper">
-                                                    <span class="elementor-button-text">PARTNER WITH US</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-edc4640"
-                            data-id="edc4640" data-element_type="column">
-                            <div class="elementor-widget-wrap">
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-4f8b8ed elementor-section-full_width elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-section-height-default elementor-section-height-default"
                     data-id="4f8b8ed" data-element_type="section">
@@ -17819,7 +17505,7 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-8ad7a68 elementor-widget elementor-widget-heading"
                                     data-id="8ad7a68" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">Mayani for Online
+                                        <h3 class="elementor-heading-title elementor-size-default">Vegsea for Online
                                             Shoppers</h3>
                                     </div>
                                 </div>
@@ -17836,7 +17522,7 @@ populateSlide(currentSlideData);
                                     data-id="459814a" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <p>Begin your journey toward mindful shopping and enjoy the bounties of nature
-                                            right at your doorstep. Shop with Mayani Online and make a positive impact
+                                            right at your doorstep. Shop with Vegsea Online and make a positive impact
                                             with every purchase.</p>
                                     </div>
                                 </div>
@@ -17932,7 +17618,7 @@ populateSlide(currentSlideData);
                                     data-id="6164e92" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <p>Begin your journey toward mindful shopping and enjoy the bounties of nature
-                                            right at your doorstep. Shop with Mayani Online and make a positive impact
+                                            right at your doorstep. Shop with Vegsea Online and make a positive impact
                                             with every purchase.</p>
                                     </div>
                                 </div>
@@ -17988,7 +17674,7 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-5d999cd elementor-widget elementor-widget-heading"
                                     data-id="5d999cd" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">Mayani for Resellers
+                                        <h3 class="elementor-heading-title elementor-size-default">Vegsea for Resellers
                                         </h3>
                                     </div>
                                 </div>
@@ -18057,42 +17743,7 @@ populateSlide(currentSlideData);
                                             style="--smush-placeholder-width: 910px; --smush-placeholder-aspect-ratio: 910/966;" />
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-ccfb7e1 elementor-widget elementor-widget-heading"
-                                    data-id="ccfb7e1" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">Mayani for Resellers
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-308ff45 elementor-widget elementor-widget-heading"
-                                    data-id="308ff45" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Empower your business
-                                            with fresh, locally sourced produce</h2>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-632d5d3 elementor-widget elementor-widget-text-editor"
-                                    data-id="632d5d3" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        <p>Get your hands on a diverse selection of fresh, locally sourced products that
-                                            will help you attract new customers, keep the loyal ones, and distinguish
-                                            your business from the rest. Join our network of resellers actively making a
-                                            positive impact in our neighborhoods.</p>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-c3a8972 elementor-align-left elementor-tablet_extra-align-justify elementor-tablet-align-center elementor-widget elementor-widget-button"
-                                    data-id="c3a8972" data-element_type="widget" data-widget_type="button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
-                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="https://mayani.ph/become-a-reseller/">
-                                                <span class="elementor-button-content-wrapper">
-                                                    <span class="elementor-button-text">APPLY NOW</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+
                                 <div class="elementor-element elementor-element-10ffad6 elementor-widget elementor-widget-spacer"
                                     data-id="10ffad6" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
@@ -18422,20 +18073,7 @@ populateSlide(currentSlideData);
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-7a6227e elementor-widget elementor-widget-heading"
-                                    data-id="7a6227e" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Our Products</h2>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-58607f5 elementor-widget elementor-widget-text-editor"
-                                    data-id="58607f5" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        <p>We take pride in offering a wide variety of agricultural products that cater
-                                            to diverse preferences and meet the highest quality standards. At Mayani, we
-                                            prioritize quality, freshness, and sustainability.</p>
-                                    </div>
-                                </div>
+
                                 <section
                                     class="elementor-section elementor-inner-section elementor-element elementor-element-538ce2e elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                                     data-id="538ce2e" data-element_type="section">
@@ -20480,13 +20118,17 @@ populateSlide(currentSlideData);
                         <div class="elementor-element elementor-element-68a58a3b elementor-widget elementor-widget-image"
                             data-id="68a58a3b" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img width="800" height="359"
-                                    data-src="https://mayani.ph/wp-content/uploads/2024/12/Mayani-Logo-White_Horizontal-Logo-1024x460.png"
-                                    class="attachment-large size-large wp-image-5484 lazyload" alt=""
-                                    data-srcset="https://mayani.ph/wp-content/uploads/2024/12/Mayani-Logo-White_Horizontal-Logo-1024x460.png 1024w, https://mayani.ph/wp-content/uploads/2024/12/Mayani-Logo-White_Horizontal-Logo-300x135.png 300w, https://mayani.ph/wp-content/uploads/2024/12/Mayani-Logo-White_Horizontal-Logo-768x345.png 768w, https://mayani.ph/wp-content/uploads/2024/12/Mayani-Logo-White_Horizontal-Logo-1536x690.png 1536w, https://mayani.ph/wp-content/uploads/2024/12/Mayani-Logo-White_Horizontal-Logo-2048x920.png 2048w"
-                                    data-sizes="(max-width: 800px) 100vw, 800px"
+                                <img width="800" height="359" data-src="{{ asset('images/logo-white.png') }}"
+                                    class="attachment-large size-large wp-image-5484 lazyload" alt="Vegseas White Logo"
+                                    data-srcset="
+        {{ asset('images/logo-white.png') }} 1024w,
+        {{ asset('images/logo-white.png') }} 300w,
+        {{ asset('images/logo-white.png') }} 768w,
+        {{ asset('images/logo-white.png') }} 1536w,
+        {{ asset('images/logo-white.png') }} 2048w" data-sizes="(max-width: 800px) 100vw, 800px"
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                     style="--smush-placeholder-width: 800px; --smush-placeholder-aspect-ratio: 800/359;" />
+
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-782270d8 elementor-widget elementor-widget-text-editor"
@@ -20624,7 +20266,7 @@ populateSlide(currentSlideData);
                                 <p><a href="{{ route('meet-the-team') }}">Meet the Team</a></p>
                                 <p><a href="{{ route('partner-with-us') }}">Partner with Us</a></p>
                                 <p><a href="/become-a-reseller">Become a Reseller</a></p>
-                                <p><a href="/news-events/">News and Events</a></p>
+                                <p><a href="{{ route('news-events') }}">News and Events</a></p>
                             </div>
                         </div>
                     </div>
@@ -20746,46 +20388,7 @@ populateSlide(currentSlideData);
                                     style="--smush-placeholder-width: 800px; --smush-placeholder-aspect-ratio: 800/359;" />
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-45969579 elementor-widget elementor-widget-text-editor"
-                            data-id="45969579" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p>The Philippines&#8217; fastest-growing, impact-driven agri-tech platform empowering
-                                    smallholder farmers and fisherfolks across the archipelago through sustainable
-                                    access to market, inputs, and credit. Trusted by a solid portfolio of B2B buyers.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-5ce36426 elementor-shape-circle elementor-grid-tablet-4 e-grid-align-left e-grid-align-tablet-left e-grid-align-tablet_extra-left elementor-grid-0 elementor-widget elementor-widget-social-icons"
-                            data-id="5ce36426" data-element_type="widget" data-widget_type="social-icons.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-social-icons-wrapper elementor-grid">
-                                    <span class="elementor-grid-item">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-eec9c4e"
-                                            href="https://www.linkedin.com/company/mayani/" target="_blank">
-                                            <span class="elementor-screen-only">Linkedin</span>
-                                            <i class="fab fa-linkedin"></i> </a>
-                                    </span>
-                                    <span class="elementor-grid-item">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-ebdef61"
-                                            href="https://www.facebook.com/mayaniph" target="_blank">
-                                            <span class="elementor-screen-only">Facebook</span>
-                                            <i class="fab fa-facebook"></i> </a>
-                                    </span>
-                                    <span class="elementor-grid-item">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-244bd2b"
-                                            href="https://www.instagram.com/mayaniph" target="_blank">
-                                            <span class="elementor-screen-only">Instagram</span>
-                                            <i class="fab fa-instagram"></i> </a>
-                                    </span>
-                                    <span class="elementor-grid-item">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-4acf570"
-                                            href="https://www.youtube.com/@MayaniPH" target="_blank">
-                                            <span class="elementor-screen-only">Youtube</span>
-                                            <i class="fab fa-youtube"></i> </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-532356df"
@@ -20902,7 +20505,7 @@ populateSlide(currentSlideData);
                                 <p><a href="{{ route('meet-the-team') }}">Meet the Team</a></p>
                                 <p><a href="{{ route('partner-with-us') }}">Partner with Us</a></p>
                                 <p><a href="/become-a-reseller">Become a Reseller</a></p>
-                                <p><a href="/news-events/">News and Events</a></p>
+                                <p><a href="{{ route('news-events') }}">News and Events</a></p>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-275266bb elementor-widget elementor-widget-spacer"
@@ -20947,40 +20550,7 @@ populateSlide(currentSlideData);
                 </div>
             </div>
         </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-1a78f33a elementor-section-full_width elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-section-height-default elementor-section-height-default"
-            data-id="1a78f33a" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-701d9c21"
-                    data-id="701d9c21" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-702601a4"
-                    data-id="702601a4" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-2d73f844 elementor-widget elementor-widget-text-editor"
-                            data-id="2d73f844" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p><a class="link2" href="/return-and-refund-policy/">Return &amp; Refund Policy</a></p>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-dfddbb9 elementor-widget elementor-widget-text-editor"
-                            data-id="dfddbb9" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p>Copyright © 2023 mayani.ph. All Rights Reserved.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6a228f9c"
-                    data-id="6a228f9c" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-            </div>
-        </section>
+
     </div>
 
     <script type="speculationrules">
