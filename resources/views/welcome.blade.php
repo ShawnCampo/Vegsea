@@ -15689,11 +15689,8 @@
                                             <a href="https://mayani.ph/partner-with-us/" class="elementor-item">Partner
                                                 With Us</a>
                                         </li>
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
-                                            <a href="https://mayani.ph/become-a-reseller/" class="elementor-item">Become
-                                                a Ka-Farmilya</a>
-                                        </li>
+
+
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
                                             <a href="{{ route('news-events') }}" class="elementor-item">News &#038;
@@ -15743,11 +15740,7 @@
                                             <a href="{{ route('partner-with-us') }}" class="elementor-item"
                                                 tabindex="-1">Partner With Us</a>
                                         </li>
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
-                                            <a href="https://mayani.ph/become-a-reseller/" class="elementor-item"
-                                                tabindex="-1">Become a Ka-Farmilya</a>
-                                        </li>
+
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
                                             <a href="{{ route('news-events') }}" class="elementor-item"
@@ -15808,52 +15801,7 @@
                                         class="elementor-menu-toggle__icon--close eicon-close"></i> <span
                                         class="elementor-screen-only">Menu</span>
                                 </div>
-                                <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
-                                    aria-hidden="true">
-                                    <ul id="menu-2-09eff15" class="elementor-nav-menu">
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-33 current_page_item menu-item-66">
-                                            <a href="{{ route('home') }}" aria-current="page"
-                                                class="elementor-item elementor-item-active" tabindex="-1">Home</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-67">
-                                            <a class="elementor-item" tabindex="-1">Our Company</a>
-                                            <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                <li
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65">
-                                                    <a href="{{ url('/about-us') }}" class="elementor-sub-item"
-                                                        tabindex="-1">About Us</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64">
-                                                    <a href="{{ route('meet-the-team') }}" class="elementor-sub-item"
-                                                        tabindex="-1">Meet the Team</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63">
-                                            <a href="{{ route('partner-with-us') }}" class="elementor-item"
-                                                tabindex="-1">Partner With Us</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62">
-                                            <a href="https://mayani.ph/become-a-reseller/" class="elementor-item"
-                                                tabindex="-1">Become a Ka-Farmilya</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61">
-                                            <a href="{{ route('news-events') }}" class="elementor-item"
-                                                tabindex="-1">News &#038; Events</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60">
-                                            <a href="{{ route('contact-us') }}" class="elementor-item"
-                                                tabindex="-1">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </nav>
+
                             </div>
                         </div>
                     </div>
@@ -16228,10 +16176,11 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-ff0008b elementor-widget elementor-widget-text-editor"
                                     data-id="ff0008b" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>At Vegsea, we value the voices of our customers, and we take pride in
-                                            providing fresh and high-quality products that leave a lasting impression.
-                                            But don’t just take our word for it — here’s what people are saying about
-                                            Mayani.</p>
+                                        <p>At VegSea.ph, we value the voices of our customers and partners. Every
+                                            review, every message, and every delivery fuels our commitment to delivering
+                                            fresh, high-quality, and proudly local products.
+                                            But don’t just take our word for it — here’s what the VegSea community is
+                                            saying:</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-c55247b elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile premium-blog-align-left elementor-widget elementor-widget-premium-addon-blog"
@@ -16903,107 +16852,7 @@ populateSlide(currentSlideData);
                                         </div>
                                     </div>
                                 </section>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-c217b3b elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="c217b3b" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-2915981"
-                                            data-id="2915981" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-6d61a7d elementor-widget elementor-widget-image"
-                                                    data-id="6d61a7d" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/19-macroasia.jpg"
-                                                            class="attachment-large size-large wp-image-4141 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/19-macroasia.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/19-macroasia-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-b8f5f4d"
-                                            data-id="b8f5f4d" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-74ce22f elementor-widget elementor-widget-image"
-                                                    data-id="74ce22f" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/20-justkitchen.jpg"
-                                                            class="attachment-large size-large wp-image-4142 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/20-justkitchen.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/20-justkitchen-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-5281ec7"
-                                            data-id="5281ec7" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-766426d elementor-widget elementor-widget-image"
-                                                    data-id="766426d" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/21-sukiya.jpg"
-                                                            class="attachment-large size-large wp-image-4143 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/21-sukiya.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/21-sukiya-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-7a7a34a"
-                                            data-id="7a7a34a" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-5e1d1b2 elementor-widget elementor-widget-image"
-                                                    data-id="5e1d1b2" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/18-builtamart.jpg"
-                                                            class="attachment-large size-large wp-image-4140 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/18-builtamart.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/18-builtamart-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-0500d78"
-                                            data-id="0500d78" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-de4a63e elementor-widget elementor-widget-image"
-                                                    data-id="de4a63e" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="384" height="240"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2024/07/ADB-logo-stacked-e1720419158504.png"
-                                                            class="attachment-large size-large wp-image-4722 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2024/07/ADB-logo-stacked-e1720419158504.png 384w, https://mayani.ph/wp-content/uploads/2024/07/ADB-logo-stacked-e1720419158504-300x188.png 300w"
-                                                            data-sizes="(max-width: 384px) 100vw, 384px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 384px; --smush-placeholder-aspect-ratio: 384/240;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+                                
                                 <div class="elementor-element elementor-element-689faac elementor-widget elementor-widget-spacer"
                                     data-id="689faac" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
@@ -17051,12 +16900,12 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-534447f elementor-widget elementor-widget-text-editor"
                                     data-id="534447f" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        Vegsea is on a mission to uplift the lives of Filipino farmers and fisherfolk by
+                                        VegSea is on a mission to uplift the lives of Filipino farmers and fisherfolk by
                                         harnessing the transformative power of technology.
-                                        <br> Our innovative solutions empower our local communities and enable them to
-                                        thrive in a rapidly evolving agricultural landscape.<br> Join us in creating a
-                                        future where technology-driven innovation and sustainable farming practices go
-                                        hand-in-hand.
+                                        <br> Our innovative solutions empower local communities, helping them thrive in
+                                        a rapidly evolving agricultural landscape—one where digital tools meet age-old
+                                        traditions. Together, we’re building a future where technology-driven innovation
+                                        and sustainable farming practices go hand-in-hand.
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-76df611 elementor-widget elementor-widget-spacer"
@@ -17092,167 +16941,7 @@ populateSlide(currentSlideData);
                         </div>
                     </div>
                 </section>
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-1834778 elementor-section-full_width elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-section-height-default elementor-section-height-default"
-                    data-id="1834778" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e530c72"
-                            data-id="e530c72" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-0d63427 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="0d63427" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f5dc703"
-                                            data-id="f5dc703" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-8246a8f elementor-widget elementor-widget-image"
-                                                    data-id="8246a8f" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/08/Puregold.jpg"
-                                                            class="attachment-large size-large wp-image-3103 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/08/Puregold.jpg 500w, https://mayani.ph/wp-content/uploads/2023/08/Puregold-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4154350"
-                                            data-id="4154350" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-72745e6 elementor-widget elementor-widget-image"
-                                                    data-id="72745e6" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/02-robinsons.jpg"
-                                                            class="attachment-large size-large wp-image-4131 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/02-robinsons.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/02-robinsons-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-d98e2e1 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="d98e2e1" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4e19866"
-                                            data-id="4e19866" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-b7bbac4 elementor-widget elementor-widget-image"
-                                                    data-id="b7bbac4" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/08-cafefrance.jpg"
-                                                            class="attachment-large size-large wp-image-4132 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/08-cafefrance.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/08-cafefrance-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-35d9a20"
-                                            data-id="35d9a20" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-cb8103f elementor-widget elementor-widget-image"
-                                                    data-id="cb8103f" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/08/Newport-World-Resorts.jpg"
-                                                            class="attachment-large size-large wp-image-3100 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/08/Newport-World-Resorts.jpg 500w, https://mayani.ph/wp-content/uploads/2023/08/Newport-World-Resorts-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4984eec"
-                                            data-id="4984eec" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-aa47701 elementor-widget elementor-widget-image"
-                                                    data-id="aa47701" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="500" height="333"
-                                                            data-src="https://mayani.ph/wp-content/uploads/2023/10/16-maniladocs.jpg"
-                                                            class="attachment-large size-large wp-image-4138 lazyload"
-                                                            alt=""
-                                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/10/16-maniladocs.jpg 500w, https://mayani.ph/wp-content/uploads/2023/10/16-maniladocs-300x200.jpg 300w"
-                                                            data-sizes="(max-width: 500px) 100vw, 500px"
-                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                            style="--smush-placeholder-width: 500px; --smush-placeholder-aspect-ratio: 500/333;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
 
-                                <div class="elementor-element elementor-element-0edb10c elementor-widget elementor-widget-spacer"
-                                    data-id="0edb10c" data-element_type="widget" data-widget_type="spacer.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-spacer">
-                                            <div class="elementor-spacer-inner"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e0ced25"
-                            data-id="e0ced25" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-
-
-                                <div class="elementor-element elementor-element-075cef7 elementor-widget elementor-widget-spacer"
-                                    data-id="075cef7" data-element_type="widget" data-widget_type="spacer.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-spacer">
-                                            <div class="elementor-spacer-inner"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6d95777"
-                            data-id="6d95777" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-e5030ae elementor-widget elementor-widget-image"
-                                    data-id="e5030ae" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img decoding="async" width="7500" height="3369"
-                                            data-src="https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo.png"
-                                            class="attachment-full size-full wp-image-5452 lazyload" alt=""
-                                            data-srcset="https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo.png 7500w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-300x135.png 300w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-1024x460.png 1024w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-768x345.png 768w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-1536x690.png 1536w, https://mayani.ph/wp-content/uploads/2023/07/Mayani-Logo_Horizontal-Logo-2048x920.png 2048w"
-                                            data-sizes="(max-width: 7500px) 100vw, 7500px"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                            style="--smush-placeholder-width: 7500px; --smush-placeholder-aspect-ratio: 7500/3369;" />
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-e63068a elementor-section-full_width elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
                     data-id="e63068a" data-element_type="section">
@@ -17343,7 +17032,7 @@ populateSlide(currentSlideData);
                                 <div class="elementor-element elementor-element-ee91c5e elementor-widget elementor-widget-image"
                                     data-id="ee91c5e" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                    <img decoding="async" width="800" height="675"
+                                        <img decoding="async" width="800" height="675"
                                             data-src="https://mayani.ph/wp-content/uploads/2023/07/Home_Advocacy.png"
                                             class="attachment-large size-large wp-image-129 lazyload" alt=""
                                             data-srcset="https://mayani.ph/wp-content/uploads/2023/07/Home_Advocacy.png 918w, https://mayani.ph/wp-content/uploads/2023/07/Home_Advocacy-300x253.png 300w, https://mayani.ph/wp-content/uploads/2023/07/Home_Advocacy-768x648.png 768w"
@@ -17811,7 +17500,7 @@ populateSlide(currentSlideData);
                                     data-id="0265187" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <p>We take pride in offering a wide variety of agricultural products that cater
-                                            to diverse preferences and meet the highest quality standards. At Mayani, we
+                                            to diverse preferences and meet the highest quality standards. At Vegsea, we
                                             prioritize quality, freshness, and sustainability.</p>
                                     </div>
                                 </div>
@@ -17917,7 +17606,7 @@ populateSlide(currentSlideData);
                                                                 class="lazyload"
                                                                 style="--smush-placeholder-width: 335px; --smush-placeholder-aspect-ratio: 335/376;" />
                                                             <figcaption class="widget-image-caption wp-caption-text">
-                                                                Only in Mayani</figcaption>
+                                                                Only in Vegsea</figcaption>
                                                         </figure>
                                                     </div>
                                                 </div>
@@ -18141,49 +17830,7 @@ populateSlide(currentSlideData);
                                             <div class="elementor-widget-wrap">
                                             </div>
                                         </div>
-                                        <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-eb37dc9"
-                                            data-id="eb37dc9" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-7f3e11c elementor-widget elementor-widget-image"
-                                                    data-id="7f3e11c" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <figure class="wp-caption">
-                                                            <img width="147" height="164" decoding="async"
-                                                                data-src="https://mayani.ph/wp-content/uploads/elementor/thumbs/Products_Frozen-Meat-5mox0hrhygwgwgkt043rlojaahyv5pl4g90vtoxhuiluw.png"
-                                                                title="Products_Frozen Meat" alt="Products_Frozen Meat"
-                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                                class="lazyload"
-                                                                style="--smush-placeholder-width: 147px; --smush-placeholder-aspect-ratio: 147/164;" />
-                                                            <figcaption class="widget-image-caption wp-caption-text">
-                                                                Frozen Meat</figcaption>
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d97150e"
-                                            data-id="d97150e" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-b0034ab elementor-widget elementor-widget-image"
-                                                    data-id="b0034ab" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <figure class="wp-caption">
-                                                            <img width="147" height="164" decoding="async"
-                                                                data-src="https://mayani.ph/wp-content/uploads/elementor/thumbs/Products_OnlyInMayani-cropped-5mox43wssgec24554bgkhx42slmo4n73vrkaxpdrclanc.png"
-                                                                title="Products_OnlyInMayani &#8211; cropped"
-                                                                alt="Products_OnlyInMayani - cropped"
-                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                                class="lazyload"
-                                                                style="--smush-placeholder-width: 147px; --smush-placeholder-aspect-ratio: 147/164;" />
-                                                            <figcaption class="widget-image-caption wp-caption-text">
-                                                                Only in Mayani</figcaption>
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                         <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-f94aa65"
                                             data-id="f94aa65" data-element_type="column">
                                             <div class="elementor-widget-wrap">
@@ -19530,7 +19177,7 @@ populateSlide(currentSlideData);
                                                                 <h3 class="elementor-icon-box-title">
                                                                     <span>
                                                                         <a id="link1"
-                                                                            href="mailto:customerservice@mayani.ph">customerservice@mayani.ph</a>
+                                                                            href="mailto:vegsea2025@gmail.com">vegsea2025@gmail.com</a>
                                                                     </span>
                                                                 </h3>
 
@@ -19556,7 +19203,7 @@ populateSlide(currentSlideData);
 
                                                                 <h3 class="elementor-icon-box-title">
                                                                     <span>
-                                                                        +63 949 121 1300 </span>
+                                                                        +63 953-1123-743 </span>
                                                                 </h3>
 
 
@@ -19741,330 +19388,7 @@ populateSlide(currentSlideData);
                                             <div class="elementor-widget-wrap">
                                             </div>
                                         </div>
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d34369a"
-                                            data-id="d34369a" data-element_type="column"
-                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-6547b62 elementor-widget elementor-widget-spacer"
-                                                    data-id="6547b62" data-element_type="widget"
-                                                    data-widget_type="spacer.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-spacer">
-                                                            <div class="elementor-spacer-inner"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-a239ee2 elementor-widget elementor-widget-heading"
-                                                    data-id="a239ee2" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h2 class="elementor-heading-title elementor-size-default">Let's
-                                                            Talk!</h2>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-ba82eef elementor-widget elementor-widget-text-editor"
-                                                    data-id="ba82eef" data-element_type="widget"
-                                                    data-widget_type="text-editor.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p>Reach out to us at</p>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-5e09468 elementor-position-left elementor-vertical-align-middle elementor-hidden-mobile elementor-view-default elementor-mobile-position-top elementor-widget elementor-widget-icon-box"
-                                                    data-id="5e09468" data-element_type="widget"
-                                                    data-widget_type="icon-box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-icon-box-wrapper">
 
-                                                            <div class="elementor-icon-box-icon">
-                                                                <span class="elementor-icon">
-                                                                    <i aria-hidden="true" class="far fa-envelope"></i>
-                                                                </span>
-                                                            </div>
-
-                                                            <div class="elementor-icon-box-content">
-
-                                                                <h3 class="elementor-icon-box-title">
-                                                                    <span>
-                                                                        <a id="link1"
-                                                                            href="mailto:customerservice@mayani.ph">customerservice@mayani.ph</a>
-                                                                    </span>
-                                                                </h3>
-
-
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <section
-                                                    class="elementor-section elementor-inner-section elementor-element elementor-element-fa65e33 elementor-section-full_width elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-hidden-tablet elementor-section-height-default elementor-section-height-default"
-                                                    data-id="fa65e33" data-element_type="section">
-                                                    <div class="elementor-container elementor-column-gap-default">
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d546c14"
-                                                            data-id="d546c14" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-000bf2e elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box"
-                                                                    data-id="000bf2e" data-element_type="widget"
-                                                                    data-widget_type="icon-box.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-icon-box-wrapper">
-
-                                                                            <div class="elementor-icon-box-icon">
-                                                                                <span class="elementor-icon">
-                                                                                    <i aria-hidden="true"
-                                                                                        class="far fa-envelope"></i>
-                                                                                </span>
-                                                                            </div>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8e1132d"
-                                                            data-id="8e1132d" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-dd5a08c elementor-vertical-align-middle elementor-widget elementor-widget-icon-box"
-                                                                    data-id="dd5a08c" data-element_type="widget"
-                                                                    data-widget_type="icon-box.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-icon-box-wrapper">
-
-
-                                                                            <div class="elementor-icon-box-content">
-
-                                                                                <h3 class="elementor-icon-box-title">
-                                                                                    <span>
-                                                                                        <a id="link1"
-                                                                                            href="mailto:customerservice@mayani.ph">customerservice@mayani.ph</a>
-                                                                                    </span>
-                                                                                </h3>
-
-
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                                <div class="elementor-element elementor-element-a5be648 elementor-position-left elementor-vertical-align-middle elementor-hidden-mobile elementor-view-default elementor-mobile-position-top elementor-widget elementor-widget-icon-box"
-                                                    data-id="a5be648" data-element_type="widget"
-                                                    data-widget_type="icon-box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-icon-box-wrapper">
-
-                                                            <div class="elementor-icon-box-icon">
-                                                                <span class="elementor-icon">
-                                                                    <i aria-hidden="true" class="fas fa-phone-alt"></i>
-                                                                </span>
-                                                            </div>
-
-                                                            <div class="elementor-icon-box-content">
-
-                                                                <h3 class="elementor-icon-box-title">
-                                                                    <span>
-                                                                        +63 949 121 1300 </span>
-                                                                </h3>
-
-
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <section
-                                                    class="elementor-section elementor-inner-section elementor-element elementor-element-c3f4b67 elementor-section-full_width elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-hidden-tablet elementor-section-height-default elementor-section-height-default"
-                                                    data-id="c3f4b67" data-element_type="section">
-                                                    <div class="elementor-container elementor-column-gap-default">
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-679a743"
-                                                            data-id="679a743" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-3bc1020 elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box"
-                                                                    data-id="3bc1020" data-element_type="widget"
-                                                                    data-widget_type="icon-box.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-icon-box-wrapper">
-
-                                                                            <div class="elementor-icon-box-icon">
-                                                                                <span class="elementor-icon">
-                                                                                    <i aria-hidden="true"
-                                                                                        class="fas fa-phone-alt"></i>
-                                                                                </span>
-                                                                            </div>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4d2659e"
-                                                            data-id="4d2659e" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-9bf219b elementor-vertical-align-middle elementor-widget elementor-widget-icon-box"
-                                                                    data-id="9bf219b" data-element_type="widget"
-                                                                    data-widget_type="icon-box.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-icon-box-wrapper">
-
-
-                                                                            <div class="elementor-icon-box-content">
-
-                                                                                <h3 class="elementor-icon-box-title">
-                                                                                    <span>
-                                                                                        +63 949 121 1300 </span>
-                                                                                </h3>
-
-
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                                <div class="elementor-element elementor-element-b12bd89 elementor-widget elementor-widget-text-editor"
-                                                    data-id="b12bd89" data-element_type="widget"
-                                                    data-widget_type="text-editor.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p>Or send us a message</p>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-7a67a8d elementor-widget elementor-widget-shortcode"
-                                                    data-id="7a67a8d" data-element_type="widget"
-                                                    data-widget_type="shortcode.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-shortcode">
-                                                            <div class="frm_forms  with_frm_style frm_style_formidable-style"
-                                                                id="frm_form_1_container">
-                                                                <form enctype="multipart/form-data" method="post"
-                                                                    class="frm-show-form  frm_pro_form "
-                                                                    id="form_contact-form">
-                                                                    <div class="frm_form_fields ">
-                                                                        <fieldset>
-                                                                            <legend class="frm_screen_reader">Contact Us
-                                                                            </legend>
-
-                                                                            <div class="frm_fields_container">
-                                                                                <input type="hidden" name="frm_action"
-                                                                                    value="create" />
-                                                                                <input type="hidden" name="form_id"
-                                                                                    value="1" />
-                                                                                <input type="hidden"
-                                                                                    name="frm_hide_fields_1"
-                                                                                    id="frm_hide_fields_1" value="" />
-                                                                                <input type="hidden" name="form_key"
-                                                                                    value="contact-form" />
-                                                                                <input type="hidden" name="item_meta[0]"
-                                                                                    value="" />
-                                                                                <input type="hidden"
-                                                                                    id="frm_submit_entry_1"
-                                                                                    name="frm_submit_entry_1"
-                                                                                    value="95e3ac0f97" /><input
-                                                                                    type="hidden"
-                                                                                    name="_wp_http_referer" value="/" />
-                                                                                <div id="frm_field_6_container"
-                                                                                    class="frm_form_field form-field  frm_required_field frm_none_container">
-                                                                                    <label for="field_g69tt"
-                                                                                        id="field_g69tt_label"
-                                                                                        class="frm_primary_label">Name
-                                                                                        <span class="frm_required"
-                                                                                            aria-hidden="true">*</span>
-                                                                                    </label>
-                                                                                    <input type="text" id="field_g69tt"
-                                                                                        name="item_meta[6]" value=""
-                                                                                        placeholder="Your Name"
-                                                                                        data-reqmsg="Name cannot be blank."
-                                                                                        aria-required="true"
-                                                                                        data-invmsg="Text is invalid"
-                                                                                        aria-invalid="false" />
-
-
-                                                                                </div>
-                                                                                <div id="frm_field_3_container"
-                                                                                    class="frm_form_field form-field  frm_required_field frm_none_container frm_full">
-                                                                                    <label for="field_29yf4d"
-                                                                                        id="field_29yf4d_label"
-                                                                                        class="frm_primary_label">Email
-                                                                                        <span class="frm_required"
-                                                                                            aria-hidden="true">*</span>
-                                                                                    </label>
-                                                                                    <input type="email"
-                                                                                        id="field_29yf4d"
-                                                                                        name="item_meta[3]" value=""
-                                                                                        placeholder="Email Address"
-                                                                                        data-reqmsg="Email cannot be blank."
-                                                                                        aria-required="true"
-                                                                                        data-invmsg="Please enter a valid email address"
-                                                                                        aria-invalid="false" />
-
-
-                                                                                </div>
-                                                                                <div id="frm_field_5_container"
-                                                                                    class="frm_form_field form-field  frm_required_field frm_none_container frm_full">
-                                                                                    <label for="field_9jv0r1"
-                                                                                        id="field_9jv0r1_label"
-                                                                                        class="frm_primary_label">Message
-                                                                                        <span class="frm_required"
-                                                                                            aria-hidden="true">*</span>
-                                                                                    </label>
-                                                                                    <textarea name="item_meta[5]"
-                                                                                        id="field_9jv0r1" rows="5"
-                                                                                        placeholder="Message"
-                                                                                        data-reqmsg="Message cannot be blank."
-                                                                                        aria-required="true"
-                                                                                        data-invmsg="Message is invalid"
-                                                                                        aria-invalid="false"></textarea>
-
-
-                                                                                </div>
-                                                                                <div id="frm_field_16_container"
-                                                                                    class="frm_form_field form-field ">
-                                                                                    <div id="contactbtn"
-                                                                                        class="frm_submit">
-
-                                                                                        <button
-                                                                                            class="frm_button_submit frm_final_submit"
-                                                                                            type="submit"
-                                                                                            formnovalidate="formnovalidate">Send</button>
-
-
-                                                                                    </div>
-                                                                                </div>
-                                                                                <input type="hidden" name="item_key"
-                                                                                    value="" />
-                                                                                <div class="frm__65483e4912d29">
-                                                                                    <label for="frm_email_1">
-                                                                                        If you are human, leave this
-                                                                                        field blank. </label>
-                                                                                    <input id="frm_email_1" type="text"
-                                                                                        class="frm_verify"
-                                                                                        name="frm__65483e4912d29"
-                                                                                        value="" autocomplete="off" />
-                                                                                </div>
-                                                                                <input name="frm_state" type="hidden"
-                                                                                    value="MBnzQIQ3LmFR4d16v+HUMfBn99uwIQvqlFhRTLCt9b0=" />
-                                                                            </div>
-                                                                        </fieldset>
-                                                                    </div>
-
-                                                                </form>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-95bd212"
                                             data-id="95bd212" data-element_type="column">
                                             <div class="elementor-widget-wrap">
@@ -20134,9 +19458,9 @@ populateSlide(currentSlideData);
                         <div class="elementor-element elementor-element-782270d8 elementor-widget elementor-widget-text-editor"
                             data-id="782270d8" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>The Philippines&#8217; fastest-growing, impact-driven agri-tech platform empowering
-                                    smallholder farmers and fisherfolks across the archipelago through sustainable
-                                    access to market, inputs, and credit. Trusted by a solid portfolio of B2B buyers.
+                                <p>Empowering Filipino&#8217; farmers and fisherfolk through tech, market access, and
+                                    community-driven innovation—VegSea is transforming agriculture, one harvest at a
+                                    time.
                                 </p>
                             </div>
                         </div>
@@ -20256,7 +19580,7 @@ populateSlide(currentSlideData);
                         <div class="elementor-element elementor-element-62521ee5 elementor-widget elementor-widget-heading"
                             data-id="62521ee5" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h4 class="elementor-heading-title elementor-size-default">About Mayani</h4>
+                                <h4 class="elementor-heading-title elementor-size-default">About Vegsea</h4>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-6d9c44db elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
@@ -20311,50 +19635,7 @@ populateSlide(currentSlideData);
                 </div>
             </div>
         </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-64f3e363 elementor-section-full_width elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
-            data-id="64f3e363" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2cc08c65"
-                    data-id="2cc08c65" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-6b664d68"
-                    data-id="6b664d68" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-355dc4d2 elementor-widget elementor-widget-text-editor"
-                            data-id="355dc4d2" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p><a class="link2" href="/return-and-refund-policy/">Return &amp; Refund Policy</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-76c07106"
-                    data-id="76c07106" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-697c447d"
-                    data-id="697c447d" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-2ad8eab9 elementor-widget elementor-widget-text-editor"
-                            data-id="2ad8eab9" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p>Copyright © 2023 mayani.ph. All Rights Reserved.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1ff68e37"
-                    data-id="1ff68e37" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-1b017a00 elementor-section-full_width elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-section-height-default elementor-section-height-default"
             data-id="1b017a00" data-element_type="section"
@@ -20408,148 +19689,10 @@ populateSlide(currentSlideData);
                     <div class="elementor-widget-wrap">
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-38c057ab"
-                    data-id="38c057ab" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-25ea70c0 elementor-widget elementor-widget-spacer"
-                            data-id="25ea70c0" data-element_type="widget" data-widget_type="spacer.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-spacer">
-                                    <div class="elementor-spacer-inner"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-7b1aca5d elementor-widget elementor-widget-heading"
-                            data-id="7b1aca5d" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">Shop</h3>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-1536bd6a elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-                            data-id="1536bd6a" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p><a href="https://shop.mayani.ph/pages/pakyawan">Pakyawan</a></p>
-                                <p><a href="https://shop.mayani.ph/collections/vegetables">Vegetables</a></p>
-                                <p><a href="https://shop.mayani.ph/collections/fruits">Fruits</a></p>
-                                <p><a href="https://shop.mayani.ph/pages/frozen-goods">Frozen Meat</a></p>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-4c341ee9 elementor-widget elementor-widget-spacer"
-                            data-id="4c341ee9" data-element_type="widget" data-widget_type="spacer.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-spacer">
-                                    <div class="elementor-spacer-inner"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4b950daf"
-                    data-id="4b950daf" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-5c45a3af elementor-widget elementor-widget-spacer"
-                            data-id="5c45a3af" data-element_type="widget" data-widget_type="spacer.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-spacer">
-                                    <div class="elementor-spacer-inner"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-505502a2 hee elementor-widget elementor-widget-heading"
-                            data-id="505502a2" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h4 class="elementor-heading-title elementor-size-default">Shop</h4>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-7b3eccdf elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-                            data-id="7b3eccdf" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p><a href="https://shop.mayani.ph/collections/plant-based-options">Plant based Meat</a>
-                                </p>
-                                <p><a href="https://shop.mayani.ph/pages/imperfect-crops">Imperfect Crops</a></p>
-                                <p><a href="https://shop.mayani.ph/collections/fruitsandsalad">Bundles</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4eabb42e"
-                    data-id="4eabb42e" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
+
             </div>
         </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-3c00c15d elementor-section-full_width elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-section-height-default elementor-section-height-default"
-            data-id="3c00c15d" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-42c3503e"
-                    data-id="42c3503e" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-45df72c2"
-                    data-id="45df72c2" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-5a20cce6 elementor-widget elementor-widget-heading"
-                            data-id="5a20cce6" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">About Mayani</h3>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-ab88136 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-                            data-id="ab88136" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p><a href="{{ url('/about-us') }}">About Us</a></p>
-                                <p><a href="{{ route('meet-the-team') }}">Meet the Team</a></p>
-                                <p><a href="{{ route('partner-with-us') }}">Partner with Us</a></p>
-                                <p><a href="/become-a-reseller">Become a Reseller</a></p>
-                                <p><a href="{{ route('news-events') }}">News and Events</a></p>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-275266bb elementor-widget elementor-widget-spacer"
-                            data-id="275266bb" data-element_type="widget" data-widget_type="spacer.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-spacer">
-                                    <div class="elementor-spacer-inner"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7f3bdb4b"
-                    data-id="7f3bdb4b" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-56b668b3 elementor-widget elementor-widget-heading"
-                            data-id="56b668b3" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">Contact</h3>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-14a1a77f elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-                            data-id="14a1a77f" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p><a href="{{ route('contact-us') }}">Contact Us</a></p>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-7f9b773e elementor-widget elementor-widget-heading"
-                            data-id="7f9b773e" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default"><a
-                                        href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjMwMTUiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">Viber</a>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-672d04c8"
-                    data-id="672d04c8" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
     </div>
 
